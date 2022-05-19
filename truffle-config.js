@@ -18,5 +18,10 @@ module.exports = {
         runs: 200
       }
     }
-  }
+  },
+  compilers: {
+    solc: {
+      version: "^0.8.4",
+    },
+  },
 }
